@@ -32,9 +32,9 @@ def SEIR(duration, h, beta, sigma, gamma, initial_population):
 # Parâmetros do modelo SEIR
 duration = 36
 h = 2
-beta = 1.33
-sigma = 0.2
-gamma = 0.1
+beta = 0.30
+sigma = 0.34
+gamma = 0.13
 initial_population = [100, 2, 0, 0]  # [Suscetíveis, Expostos, Infectados, Recuperados]
 
 # Simulação do modelo SEIR
